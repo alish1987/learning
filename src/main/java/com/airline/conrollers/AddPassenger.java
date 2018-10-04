@@ -68,6 +68,7 @@ public class AddPassenger extends HttpServlet {
             passenger.setDob(dob);
         } else {
 
+
             System.out.println("invalid dae of birth");
             request.setAttribute("errors", true);
             request.setAttribute("date_format_error", true);
